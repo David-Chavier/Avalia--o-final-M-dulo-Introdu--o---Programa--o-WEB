@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="../css/recados.css">
+    <link rel="shortcut icon" href="../arquivos/favicon.ico" type="image/x-icon">
+</head>
+<body>
+
+<form id="add-recados">
+
+  <div id="row">
+    <H1>Meus recados</H1>
+    <div type="button" id="buttonSair">Sair</div>
+  </div>
+  <div class="inputsLogin">
+    <input type="text" id="descriçao" placeholder="Descrição">
+    <input type="text" id="detalhamento" placeholder="Detalhamento">
+    <input type="submit" id="buttonSubmit" value="Salvar">
+  </div>
+</form>
+
+<table>
+    <thead>
+        <tr >
+            <th class="cabeçalho">#</th>
+            <th class="cabeçalho">Descrição</th>
+            <th class="cabeçalho">Detalhamento</th>
+            <th class="cabeçalho">Ação</th>
+        </tr>
+    </thead>
+    <tbody id="lista-contatos"></tbody>
+</table>
+
+<script src="../js/recados.js"></script>
+</body>
+</html>

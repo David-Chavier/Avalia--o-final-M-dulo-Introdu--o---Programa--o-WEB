@@ -1,0 +1,42 @@
+body{
+    display: flex;
+}
+h2{
+    font-size: 28px;
+}
+.user-box{
+    margin: 20px;
+}
+.boxStyle{
+    border-radius: 8px;
+    width: 300px;
+    height: 35px;
+    font-size: large;
+}
+img{
+    
+    height: 100%;
+    width: 100%;
+}
+#fundo{
+    width: 65%;
+}
+.row{
+    height: 100vh ;
+    width: 50%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+#buttonSubmit{
+    background-color: #E5C7C6;
+    border-radius: 8px;
+    width: 300px;
+    height: 35px;
+    font-size: large;
+    text-align: center;
+    border: none;
+}:hover{
+    cursor: pointer;
+}
